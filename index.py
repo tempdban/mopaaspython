@@ -9,6 +9,6 @@ class hello:
     def GET(self, name):
         if not name: 
             name = 'World'
-        return 'a, ' + name + '!'
+        return 'mopaas, ' + name + '!'
 
 application = app.wsgifunc()
