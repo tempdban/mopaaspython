@@ -1,2 +1,2 @@
-gunicorn==18.0
+gunicorn
 web.py
