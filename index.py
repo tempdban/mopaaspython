@@ -8,7 +8,7 @@ app = web.application(urls, globals())
 class hello:        
     def GET(self, name):
         if not name: 
-            name = 'World'
-        return '++mopaas, ' + name + '!'
+            name = 'Mopaas'
+        return 'Hello, ' + name + '!'
 
 application = app.wsgifunc()
